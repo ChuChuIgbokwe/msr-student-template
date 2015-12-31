@@ -206,7 +206,7 @@ html {
         list-style: none; }
         html body footer ul li {
           float: left;
-          width: calc(100% / 3);
+          width: calc(100% / 2);
           text-align: center; }
         @media screen and (max-width: 1000px) {
           html body footer ul li {

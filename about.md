@@ -2,19 +2,18 @@
 layout: about
 path: /about
 url: index.html
-image: http://unsplash.it/400?random
+image: https://cloud.githubusercontent.com/assets/4311090/12005335/5b0197be-ab65-11e5-8412-04ad8eac0214.jpg
 ---
 
-## Overview
-Lorem ipsum dolor sit amet, purto tota in vel, exerci discere apeirian has in. Nec noster iracundia eu, utroque facilis ad has. Alii argumentum no his, omnis iusto scripta vim in, ipsum ridens mel at. Has homero phaedrum no, ea autem affert facilis usu, has possim meliore perpetua id. Errem iisque mea ex, option ocurreret no est. Sea facer ullamcorper ne, cu dictas discere repudiandae sea.
+## Biography
+Chukwunyere is currently a student in the Master of Science in Robotics program at Northwestern University. Born in Port Harcourt Nigeria, he received his B.Sc in Electrical/Electronics Engineering from the University of Lagos.
 
-His nemore audiam consequat ad, no augue choro assueverit mei. Zril offendit tincidunt ne quo. At commodo integre alienum sea, cu vocent fuisset suscipit nam. Eum ex tation omnesque adversarium, mutat autem putant te nam. Id vix facilis complectitur, vis vitae vivendo euripidis ea, fugit eirmod an vix.
+Chukwunyere has experience in the oil and gas industry having worked at both Shell and Halliburton. He was a secondary school teacher for a year after completing college where he taught courses in basic technology and physics. During his undergraduate studies he ran an entertainment company, and after graduation he proceeded to co-found a company that makes low cost educational tablets.
 
-Ad case nemore equidem mea. Duo te iuvaret appetere appellantur, sint scaevola usu cu. Eum ne aeque ridens prompta. At legendos vulputate eos, pro illum iuvaret cu, ludus vituperata usu no.
-
-Mel magna discere in. Mea ea dicit homero perfecto. Eam nulla facete scribentur in. Vide volutpat laboramus est cu, usu cu impetus dignissim. Ex pro decore impetus. Ius nihil iisque deterruisset an, ex sanctus verterem his. Doming prompta insolens est ut.
+His long-term goal is to start a company that uses robotics to solve major problems in Nigeria and, by extension, the world. His short term plan is to use robotics to solve the problem of oil bunkering in the Niger Delta which results in 30,000 to 400,000 barrels of oil being stolen daily.
 
 ### Research interests
-* Interest 1
-* Interest 2
-* Interest 3
+* Navigation and Path Planning
+* Machine Learning and Artificial Intelligence
+* Computer Vision
+* Autonomous Vehicles
