@@ -6,16 +6,23 @@ image: https://cloud.githubusercontent.com/assets/4311090/12085752/ce89838e-b288
 ---
 ##Overview
 This was the final project of the Introduction to Mechatronics class. The goals were to become familiar with writing code library of functions for a PIC32 and using it to control a bar’s position on the end of a motor and  get the bar to follow a certain trajectory.
-![function library](https://cloud.githubusercontent.com/assets/4311090/12290066/1dcd557e-b9a5-11e5-82a6-ac1f1754b7da.png)
 
+Control of the DC motor occurred through MATLAB, in which serial communication sent commands to the PIC32 to directly control the DC motor. Hardware used was quadrature decoder and counter chip, current sensor, H-bridge, as well as resistors and capacitors. We built up a library of functions before having a bar attached to the end of the motor follow a reference trajectory. 
 The bar’s angular position tracked a reference signal by using a PID controller.
 
-Control of the DC motor occurred through MATLAB, in which serial communication sent commands to the PIC32 to directly control the DC motor. Hardware used was quadrature decoder and counter chip, current sensor, H-bridge, as well as resistors and capacitors. We built up a library of functions before having a bar attached to the end of the motor follow a reference trajectory.
+The library library looked like this
 
-### Circuit Schematics
+![function library](https://cloud.githubusercontent.com/assets/4311090/12290066/1dcd557e-b9a5-11e5-82a6-ac1f1754b7da.png)
+
+
+
+### Circuit Schematic and PID Loop Diagram
+The PI current controller makes the current sensor reading match a reference signal by adjusting the PWM signal and motor direction. The PID position control loop determines the error between the reference position and encoder angle, setting a desired current to follow for the current control loop. Tuning of both control loops was required.
 ![schematics](https://cloud.githubusercontent.com/assets/4311090/12287334/6c4feca2-b991-11e5-8714-e2aa83206b51.png)
 
-###current tuning with optimized gains 
+Here are some of the results obtained.
+
+### Current tuning with optimized gains 
 ![image](https://cloud.githubusercontent.com/assets/4311090/12290969/2529f584-b9aa-11e5-9634-12020f8f03c6.png)
 
 ### 180 degree sine curve trajectory
