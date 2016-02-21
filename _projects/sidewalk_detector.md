@@ -23,3 +23,5 @@ where 2. outputs a point cloud which contains the subset of points from the poin
 where 3. outputs a point cloud which contains the subset of points from the point cloud output by the topic "/camera/depth/points” that are considered to be OUTSIDE the sidewalk
 
 By “inside” we mean any point or pixel that maps to a piece of sidewalk, whether or not we could navigate there. So, if we were doing it by hand, we’d open an image editor and fill in all the pixels that we perceive as being the sidewalk. 
+
+[Click Here for the Code](https://github.com/ChuChuIgbokwe/sidewalk_detector)
