@@ -1,6 +1,6 @@
 ---
 layout: project
-title: A-Star-with-pygame-and-networkx
+title: A* Search Implemented
 date: February 9, 2017
 image: https://cloud.githubusercontent.com/assets/4311090/22806724/119f8d4c-eee9-11e6-9877-deae6cd9baae.jpeg
 ---
