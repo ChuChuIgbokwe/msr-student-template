@@ -6,8 +6,8 @@ image: https://cloud.githubusercontent.com/assets/4311090/12005338/60687c40-ab65
 
 ---
 
-##OBJECTIVES#
-* Use the ROS [camera calibration] (http://wiki.ros.org/camera_calibration) package to calibrate the webcam you are given
+## OBJECTIVES
+* Use the ROS [camera calibration](http://wiki.ros.org/camera_calibration) package to calibrate the webcam you are given
 * Follow the documentation for the package to try and get the package running
  - Build some sort of 3D holder for your LEDs and calculate the transforms between them
  - Build a circuit for powering the LEDs
