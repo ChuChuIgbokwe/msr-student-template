@@ -1,7 +1,7 @@
 ---
 layout: project
 title: Simulating Marco Reus's Unbelievable Trick
-date: December 11 2014
+date: December 11, 2014
 image: https://cloud.githubusercontent.com/assets/4311090/12005453/2ece53de-ab6b-11e5-9c88-027f03b2bcbb.jpg
 ---
 ## Overview

@@ -15,8 +15,7 @@ Build a ROS node called “sidewalk_detector” that consumes the replayed data 
 2. /sidewalk_detector/depth/points_in
 3. /sidewalk_detector/depth/points_out
 
-### Definitions: 
-where 
+### Definitions:  
 1. outputs the images from the topic "/camera/color/image_raw” with a visible highlight (e.g. a red mask) mapped over the set of pixels that are considered to be INSIDE the sidewalk
 
 2. outputs a point cloud which contains the subset of points from the point cloud output by the topic "/camera/depth/points” that are considered to be INSIDE the sidewalk
